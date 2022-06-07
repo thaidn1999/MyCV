@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #525659;
+}
+
+a {
+  color: #51c2d5;
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: "-";
+}
+
+h2 {
+  width: 100%;
+  font-weight: 500;
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  line-height: 42px;
+  display: inline-block;
+  color: #fff;
+}
+
+h4 {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  padding: 6px 0;
+}
+
+h4::after {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  content: "";
+  width: 100%;
+  border-bottom: 1px solid;
+}
+
+h5 {
+  font-size: 16px;
+  color: #333;
+  line-height: 20px;
+}
+h5 ~ span,
+h5 ~ em {
+  font-weight: 300;
+}
+
+ul li,
+.info p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-left: 4px;
+}
+
+.container {
+  width: 1100px;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 10px;
+}
+.header {
+  background: #2c3e50;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.header-text {
+  width: 30%;
+  text-align: center;
+  color: #fff;
+}
+
+.main {
+  width: 100%;
+  background-color: #2c3e50;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* profile */
+.profile {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 60%;
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 5px #51c2d5 solid;
+  transition: all 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.2);
+}
+
+.about-me {
+  width: 90%;
+  padding: 7px 7px;
+  margin: 22px 0 12px 0;
+  background: #51828d;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.info {
+  display: flex;
+  margin: 5px 0px;
+  color: #fff;
+}
+
+.info-item {
+  width: 95%;
+  color: #fff;
+  padding: 6px 4px;
+}
+
+.info-title {
+  color: #fff;
+}
+
+.icon {
+  width: 40px;
+  text-align: center;
+}
+
+/* content */
+.content {
+  width: 70%;
+  background: #fff;
+  padding: 10px;
+  padding-left: 20px;
+  margin-top: -15px;
+  border-radius: 5px;
+}
+/* detail */
+.detail {
+  margin: 10px 0px;
+  padding-left: 10px;
+}
+
+.detail em {
+  display: inline-block;
+  margin: 4px 0;
+}
